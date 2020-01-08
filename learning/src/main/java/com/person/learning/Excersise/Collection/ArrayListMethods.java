@@ -126,7 +126,7 @@ class methodsofArrayList {
 		arrayList.add("javaScript");
 		arrayList.add("Angular");
 		arrayList.add("Angular5");
-
+        //System.out.println(arrayList.ensureCapacity(18));
 		arrayList2.add("Java");
 		arrayList2.add("SpringBoot");
 		arrayList2.add("MicroServices");
@@ -134,13 +134,24 @@ class methodsofArrayList {
 		arrayList.addAll(arrayList2);
 
 		System.out.println(arrayList);
-		
+
 		System.out.println(arrayList.indexOf("Angular"));
-		for(String arr : arrayList) {
+		for (String arr : arrayList) {
 			System.out.println(arr);
 		}
-		boolean a = arrayList.removeIf(n->!arrayList.contains("A"));
-		System.out.println(a);
+		
+		String ret = arrayList.get(3);
+		System.out.println("$$$$$$$  "  + ret + "########   "  + arrayList.isEmpty());
+		
+		/*
+		 * boolean a = arrayList.removeIf(n->!arrayList.contains("A"));
+		 * System.out.println(a);
+		 */
+	}
+
+	public void removeandretainmethod() {
+		ArrayList<String> arrayList = new ArrayList<String>();
+		ArrayList<String> arrayList2 = new ArrayList<String>();
 
 	}
 

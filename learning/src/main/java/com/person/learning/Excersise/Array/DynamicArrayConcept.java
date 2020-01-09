@@ -34,19 +34,23 @@ class Dynamic {
 		for (String a : dynamicSizeofArray) {
 			System.out.println(a);
 		}
-
 	}
 
 	public int addingValueofElements() {
 		int sizeofArray;
 		int[] sizeofElements = { 10, 20, 30, 40, 50, 10 };
 		int sum = 0;
+		System.out.println(sizeofElements.length);
 		for (int element = 0; element < sizeofElements.length; element++) {
 			sum += sizeofElements[element];
 		}
+		int sum2 =0;
+//		for(int element2: sizeofElements){
+//			sum2+=sizeofElements[element2];
+//		}
+//		System.out.println("looking of" +sum2);
 		System.out.println("Result " + sum);
 		return sum;
-
 	}
 
 	public int findingMissingNumber() {
@@ -59,14 +63,18 @@ class Dynamic {
 		System.out.println("#@#@#$  " + totalNumberofElement.length);
 		for (int num = 0; num < totalNumberofElement.length; num++) {
 			totalSum = totalSum + num;
-
+			//totalSum = totalNumberofElement[num]; 
+			/*
+			 it will (totalSum = totalNumberofElement[num];) return 0(zero) becuase when we are giving size of array it will loop 
+			 that number of time ( for 100 the lop will run 100 times) but total sum will be zero because array contain zero value 
+			 it just have 100 index but zer0 value.
+			 */
 		}
 		System.out.println("totalSum  " + totalSum);
 		System.out.println("Please Enter the missing number");
 		missingNumber = scanner.nextInt();
 		int totalAll = totalSum - missingNumber;
 		try {
-
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -92,5 +100,8 @@ class Dynamic {
 		}
 		return totalSum;
 	}
-/*https://javarevisited.blogspot.com/2015/06/top-20-array-interview-questions-and-answers.html*/
+	/*
+	 * https://javarevisited.blogspot.com/2015/06/top-20-array-interview-questions-
+	 * and-answers.html
+	 */
 }

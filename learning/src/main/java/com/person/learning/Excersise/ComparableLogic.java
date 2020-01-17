@@ -21,7 +21,6 @@ public ComparableLogic(String name, int age ) {
 public String toString() {
 	return "";
 }
-@Override
 public int compareTo(ComparableLogic comparableLogic) {
 	if(this.age == comparableLogic.age)
 		return 0;
@@ -41,6 +40,11 @@ public int getAge() {
 
 public void method() {
 
+}
+@Override
+public int compareTo(Object o) {
+	// TODO Auto-generated method stub
+	return 0;
 }
 
 

@@ -2,6 +2,7 @@ package com.person.learning.Excersise.Collection;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 class methodsofArrayList {
 	// void add(int index, E element) --> It is used to insert the specified element
@@ -87,7 +88,7 @@ class methodsofArrayList {
 		 * does not contain the element.
 		 */
 		System.out.println("java.util.ArrayList.lastIndexOf(Object)");
-		System.out.println(arrayList.lastIndexOf("Singh"));
+		System.out.println(arrayList.lastIndexOf("Angular5"));
 
 		/*
 		 * The toArray() method is used to get an array which contains all the elements
@@ -135,7 +136,7 @@ class methodsofArrayList {
 
 		System.out.println(arrayList);
 
-		System.out.println(arrayList.indexOf("Angular"));
+		System.out.println("This is the idexOfMethod  " + arrayList.indexOf("Angular5"));
 		for (String arr : arrayList) {
 			System.out.println(arr);
 		}
@@ -160,7 +161,7 @@ class methodsofArrayList {
 public class ArrayListMethods {
 	public static void main(String[] args) {
 		methodsofArrayList arrayList = new methodsofArrayList();
-		// arrayList.add();
+		 arrayList.add();
 		arrayList.othermethodsofArrayList();
 
 	}

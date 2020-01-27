@@ -11,7 +11,7 @@ import java.util.Set;
 public class ListMethod {
 	public static void main(String[] args) {
 		MethodOfList methodOfList = new MethodOfList();
-		// methodOfList.methodaddingElelment();
+		methodOfList.methodaddingElelment();
 		methodOfList.SearchMethod();
 	}
 }

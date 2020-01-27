@@ -25,5 +25,14 @@ class A
         Testing t = new Testing(); 
         obj=t; 
         obj.show(); 
+        if (false) {
+        	System.out.println("in");
+        	  if(true) {
+              	System.out.println("Yes");
+              }else {
+              	System.out.println("false");
+              }
+        }
+      
     } 
 } 

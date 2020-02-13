@@ -1,4 +1,4 @@
-package multitreading;
+package com.person.learning.Excercise.Multitreading;
 
 public class Multi2 implements Runnable {
 public static void main(String[] args) {

@@ -101,7 +101,11 @@ class Dynamic {
 		return totalSum;
 	}
 	/*
-	 * https://javarevisited.blogspot.com/2015/06/top-20-array-interview-questions-
-	 * and-answers.html
+	  https://javarevisited.blogspot.com/2015/06/top-20-array-interview-questions-and-answers.html
 	 */
+	
+	class SearchingArrays{
+		Scanner scanner = new Scanner(System.in);
+		
+	}
 }

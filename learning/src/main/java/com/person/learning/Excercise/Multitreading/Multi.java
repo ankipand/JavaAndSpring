@@ -1,4 +1,4 @@
-package multitreading;
+package com.person.learning.Excercise.Multitreading;
 
 public class Multi extends Thread {
 

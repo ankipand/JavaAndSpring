@@ -1,0 +1,96 @@
+covariant type in java ?
+
+ => Covariant return type refers to return type of an overriding method. ... Covariant return type works only for non-primitive return types. From Java 5 onwards, we can override a method by changing its return type only by abiding the condition that return type is a subclass of that of overridden method return type
+
+immutal class? 
+=> Class and data membre must be final, A parameterized constructor,Getter method for all the variables in it, No setter.
+
+
+How to create Mutual class?
+
+Serializable vs deSerializable ?
+
+That Serializable is a marker interface means that it contains no methods. Therefore, a class implementing Serializable does not have to implement any specific methods. Implementing Serializable thus just tells the Java serialization classes that this class is intended for object serialization.
+
+
+
+flexiblity,security,abstraction,reuseability ==> Piller of Opps.
+
+composition( Has-A relationship) vs aggregation(IS-a) ?
+
+Aggregation implies a relationship where the child can exist independently of the parent. Example: Class (parent) and Student (child). Delete the Class and the Students still exist.
+Composition implies a relationship where the child cannot exist independent of the parent. Example: House (parent) and Room (child). Rooms don't exist separate to a House.
+
+
+
+method hiding ?
+
+automatically --exact method signnature?
+
+this()-> contructor chaining .
+
+instance vs static block difference?
+
+iterator? 
+
+hashmap vs hashtable?
+
+3 month?
+
+deep cloning vs shadow cloning ?
+
+constructor?
+
+default size of the array ? 10 object
+
+Spring boot version ? 2.2.1
+
+number of ways to generate the object of class?
+================================================================
+Using the new keyword
+
+Using newInstance() method of Class class
+
+Using newInstance() method of Constructor class
+
+Using clone() method
+
+Using deserialization
+
+======================================================
+Why java won't provide support for multiple inheritance?
+
+method signature-> method name+method parameter
+
+Why ambiguity problem won't be there in interfaces?
+
+why Cyclic inheritance is not allowed in java?
+
+Automatic promotion in overloading.?
+
+volatile ??
+
+why abstract class have constructor ? yes
+
+Can we create object of the Abstract Class? yes
+
+Static Block,variable,class,method?
+
+Instance Block,variable,class,method?
+
+What is singleton? Give example?
+
+POST vs Get ?
+
+MVC model ?
+===============================================================
+different profile in spring boot ?
+1st level case 2nd level case in hibernate(cashing in hibernate)?
+
+resptful api ?
+DAO pattern ?
+
+starter depencdecy ?
+
+java 8 interface vs abstract class? 
+

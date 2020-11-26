@@ -18,6 +18,7 @@ class methodsofArrayList {
 		arrayList.add(1, "Singh");
 
 		// Using for loop to iterate all the elements of ArrayList
+		System.out.println("I am using for loop to retrive the element");
 		for (String i : arrayList) {
 			System.out.println(i);
 		}
@@ -46,6 +47,7 @@ class methodsofArrayList {
 		arrayList2.add(30);
 		arrayList2.add(40);
 
+		System.out.println(" I am using forEach Loop to retrive");
 		arrayList2.forEach(reedem -> {
 			System.out.println(reedem);
 		});
@@ -56,12 +58,13 @@ class methodsofArrayList {
 		arrayList3.add("Neha");
 		arrayList3.add("Sonal");
 
+		System.out.println(" I am using forEach Stream to access element");
 		arrayList3.forEach(ite -> {
 			System.out.println(ite);
 		});
-
+         System.out.println("I am using addAll method and adding arraylist3 with arrayList");
 		arrayList3.addAll(arrayList);
-		System.out.println("Printing all the Elements of ArrayList3");
+		System.out.println("Printing all the Elements of ArrayList3+ arraylist which is result of arraylist3.addAll(arrayList) using for loop");
 		for (String printAll : arrayList3) {
 			System.out.println(printAll);
 		}
@@ -74,9 +77,9 @@ class methodsofArrayList {
 		}
 		System.out.println("Compare @@@@@@@@@@@@@@@@@@@@@@@@");
 		arrayList.forEach(action -> {
-			// System.out.println(action);
+			 System.out.println(action);
 		});
-
+    System.out.println("Outside addAll");
 		// E get(int index)--> It is used to fetch the element from the particular
 		// position of the list.
 		String i = arrayList.get(3);
@@ -121,6 +124,7 @@ class methodsofArrayList {
 	}
 
 	public void othermethodsofArrayList() {
+		System.out.println("***********othermethodsofArrayList***************************");
 		ArrayList<String> arrayList = new ArrayList<String>();
 		ArrayList<String> arrayList2 = new ArrayList<String>();
 
@@ -142,7 +146,7 @@ class methodsofArrayList {
 		}
 		
 		String ret = arrayList.get(3);
-		System.out.println("$$$$$$$  "  + ret + "########   "  + arrayList.isEmpty());
+		System.out.println("$$$$$$$  "  + ret + "   ########   "  + arrayList.isEmpty());
 		
 		/*
 		 * boolean a = arrayList.removeIf(n->!arrayList.contains("A"));

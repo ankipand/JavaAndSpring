@@ -7,7 +7,7 @@ public class HashMapKeyDuplicateKeyandValueResult {
   public static void main(String[] args) throws CloneNotSupportedException {
 	  HashMapKeyDuplicateKeyandValueResult duplicateKeyandValueResult = new HashMapKeyDuplicateKeyandValueResult();
 	  duplicateKeyandValueResult.DuplicateKey();
-	  duplicateKeyandValueResult.clone();
+	 // duplicateKeyandValueResult.clone();
 	  
 }
 
@@ -17,6 +17,7 @@ public class HashMapKeyDuplicateKeyandValueResult {
 	  duplicateKey.put(2, "Mango");
 	  duplicateKey.put(3, "Orange");
 	  duplicateKey.put(2, "Pineapple");
+	  duplicateKey.put(1, "PPPPPPP ");
 	  
 	  
 	  for(Map.Entry m : duplicateKey.entrySet()) {

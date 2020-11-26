@@ -7,10 +7,10 @@ public class PracticalEdureka2 {
 		Printer printer = new Printer();
 		/* printer.printDocument(10, "GSINGH"); */
 
-		MyThread myThread = new MyThread(printer);// MyThread is having reference to the Printer Object.
+		/*DugraThread1 myThread = new DugraThread1(printer);*/// MyThread is having reference to the Printer Object.
 		YourThread thread = new YourThread(printer);
 		//if multiple thread is working on same single object we must synchronized them
-		myThread.start();
+		/*myThread.start();*/
 		/*try {
 			myThread.join();
 		} catch (InterruptedException e) {
